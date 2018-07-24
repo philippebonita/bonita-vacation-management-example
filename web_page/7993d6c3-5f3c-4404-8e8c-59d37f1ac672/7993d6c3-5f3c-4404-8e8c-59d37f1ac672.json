@@ -3,7 +3,7 @@
   "previousDesignerVersion" : "1.5.7",
   "id" : "7993d6c3-5f3c-4404-8e8c-59d37f1ac672",
   "name" : "reviewRequestForm",
-  "lastUpdate" : 1522399121369,
+  "lastUpdate" : 1532443253479,
   "rows" : [ [ {
     "type" : "component",
     "dimension" : {
@@ -407,7 +407,9 @@
       } ], [ {
         "type" : "component",
         "dimension" : {
-          "xs" : 12
+          "xs" : 12,
+          "md" : 12,
+          "lg" : 6
         },
         "propertyValues" : {
           "alignment" : {
@@ -480,10 +482,12 @@
             "type" : "interpolation"
           },
           "dataFromSuccess" : {
-            "type" : "variable"
+            "type" : "variable",
+            "value" : ""
           },
           "dataFromError" : {
-            "type" : "variable"
+            "type" : "variable",
+            "value" : ""
           },
           "valueToAdd" : {
             "type" : "constant"
