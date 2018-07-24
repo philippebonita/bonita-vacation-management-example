@@ -3,7 +3,7 @@
   "previousDesignerVersion" : "1.5.7",
   "id" : "newVacationRequestForm2",
   "name" : "newVacationRequestForm2",
-  "lastUpdate" : 1532443371696,
+  "lastUpdate" : 1532443899033,
   "rows" : [ [ {
     "type" : "component",
     "dimension" : {
@@ -461,7 +461,7 @@
           },
           "formInput" : {
             "type" : "variable",
-            "value" : "formInput"
+            "value" : "formData"
           }
         },
         "reference" : "5f0143e7-3294-42f8-a936-eb05e032e0e8",
