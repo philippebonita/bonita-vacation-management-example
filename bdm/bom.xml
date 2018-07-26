@@ -71,5 +71,13 @@ Possible status values are: pending, approved, refused, processing cancellation 
                 </index>
             </indexes>
         </businessObject>
+        <businessObject qualifiedName="com.company.model.Invoice">
+            <fields>
+                <field type="STRING" length="255" name="amount" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
     </businessObjects>
 </businessObjectModel>

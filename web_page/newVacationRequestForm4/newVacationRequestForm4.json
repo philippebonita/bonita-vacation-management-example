@@ -1,9 +1,9 @@
 {
   "designerVersion" : "1.7.25",
   "previousDesignerVersion" : "1.5.7",
-  "id" : "newVacationRequestForm2",
-  "name" : "newVacationRequestForm2",
-  "lastUpdate" : 1532443899033,
+  "id" : "newVacationRequestForm4",
+  "name" : "newVacationRequestForm4",
+  "lastUpdate" : 1532608051966,
   "rows" : [ [ {
     "type" : "component",
     "dimension" : {
@@ -20,7 +20,7 @@
       },
       "text" : {
         "type" : "interpolation",
-        "value" : "Create a new vacation request"
+        "value" : "Ask for Vacations because it is summer"
       },
       "level" : {
         "type" : "constant",
@@ -430,42 +430,6 @@
         },
         "reference" : "f1a2698f-ba8e-4f2a-a55b-da2ff0fdd643",
         "id" : "pbButton"
-      }, {
-        "type" : "component",
-        "dimension" : {
-          "xs" : 12,
-          "sm" : 12,
-          "md" : 6,
-          "lg" : 6
-        },
-        "propertyValues" : {
-          "cssClasses" : {
-            "type" : "constant",
-            "value" : ""
-          },
-          "hidden" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "label" : {
-            "type" : "interpolation",
-            "value" : "Save draft"
-          },
-          "alignment" : {
-            "type" : "constant",
-            "value" : "left"
-          },
-          "buttonStyle" : {
-            "type" : "constant",
-            "value" : "default"
-          },
-          "formInput" : {
-            "type" : "variable",
-            "value" : "formData"
-          }
-        },
-        "reference" : "5f0143e7-3294-42f8-a936-eb05e032e0e8",
-        "id" : "pbSaveButton"
       } ] ]
     }
   } ] ],
