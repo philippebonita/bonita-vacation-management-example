@@ -3,7 +3,7 @@
   "previousDesignerVersion" : "1.5.7",
   "id" : "newVacationRequestForm4",
   "name" : "newVacationRequestForm4",
-  "lastUpdate" : 1532608051966,
+  "lastUpdate" : 1532610480213,
   "rows" : [ [ {
     "type" : "component",
     "dimension" : {
@@ -430,6 +430,42 @@
         },
         "reference" : "f1a2698f-ba8e-4f2a-a55b-da2ff0fdd643",
         "id" : "pbButton"
+      }, {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 6,
+          "lg" : 6
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Save draft"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "buttonStyle" : {
+            "type" : "constant",
+            "value" : "default"
+          },
+          "formInput" : {
+            "type" : "variable",
+            "value" : "formInput"
+          }
+        },
+        "reference" : "bc9ebc06-a6bd-4d31-87e2-e7296ac21504",
+        "id" : "pbSaveButton"
       } ] ]
     }
   } ] ],

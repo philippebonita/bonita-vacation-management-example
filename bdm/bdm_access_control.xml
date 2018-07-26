@@ -1,12 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <accessControlModel xmlns="http://documentation.bonitasoft.com/bdm-access-control-xml-schema/1.0">
     <businessObjectRule businessObjectQualifiedName="com.company.model.VacationRequest">
-        <rule name="myRule" usingDynamicProfiles="false">
+        <rule name="employeeRule" usingDynamicProfiles="false" description="employee">
             <condition></condition>
-            <staticProfiles/>
+            <staticProfiles>
+                <profile>User</profile>
+            </staticProfiles>
             <dynamicProfiles></dynamicProfiles>
-            <attributes businessObjectQualifiedName="com.company.model.VacationRequest"/>
+            <attributes businessObjectQualifiedName="com.company.model.VacationRequest">
+                <attribute name="requesterBonitaBPMId"/>
+                <attribute name="reviewerBonitaBPMId"/>
+                <attribute name="startDate"/>
+                <attribute name="returnDate"/>
+                <attribute name="numberOfDays"/>
+                <attribute name="status"/>
+                <attribute name="calendarEventId"/>
+                <attribute name="newRequestProcessInstanceId"/>
+            </attributes>
+        </rule>
+        <rule name="ManagerRule" usingDynamicProfiles="false">
+            <condition></condition>
+            <staticProfiles>
+                <profile>Administrator</profile>
+            </staticProfiles>
+            <dynamicProfiles></dynamicProfiles>
+            <attributes businessObjectQualifiedName="com.company.model.VacationRequest">
+                <attribute name="requesterBonitaBPMId"/>
+                <attribute name="reviewerBonitaBPMId"/>
+                <attribute name="startDate"/>
+                <attribute name="returnDate"/>
+                <attribute name="numberOfDays"/>
+                <attribute name="status"/>
+                <attribute name="comments"/>
+                <attribute name="calendarEventId"/>
+                <attribute name="newRequestProcessInstanceId"/>
+            </attributes>
         </rule>
     </businessObjectRule>
     <businessObjectRule businessObjectQualifiedName="com.company.model.VacationAvailable"/>
+    <businessObjectRule businessObjectQualifiedName="com.company.model.Invoice"/>
 </accessControlModel>
