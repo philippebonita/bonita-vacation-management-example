@@ -3,7 +3,7 @@
   "previousDesignerVersion" : "1.5.7",
   "id" : "newVacationRequestForm4",
   "name" : "newVacationRequestForm4",
-  "lastUpdate" : 1532610480213,
+  "lastUpdate" : 1537889434455,
   "rows" : [ [ {
     "type" : "component",
     "dimension" : {
@@ -20,7 +20,7 @@
       },
       "text" : {
         "type" : "interpolation",
-        "value" : "Ask for Vacations because it is summer"
+        "value" : "Ask for Vacations because it is summer or winter"
       },
       "level" : {
         "type" : "constant",
