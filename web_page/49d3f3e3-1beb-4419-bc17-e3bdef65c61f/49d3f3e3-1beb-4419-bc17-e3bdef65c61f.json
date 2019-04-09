@@ -1,9 +1,9 @@
 {
-  "designerVersion" : "1.7.25",
-  "previousDesignerVersion" : "1.5.7",
+  "designerVersion" : "1.8.29",
+  "previousDesignerVersion" : "1.7.25",
   "id" : "49d3f3e3-1beb-4419-bc17-e3bdef65c61f",
   "name" : "removeAllBusinessData",
-  "lastUpdate" : 1522399121417,
+  "lastUpdate" : 1554815994540,
   "rows" : [ [ {
     "type" : "component",
     "dimension" : {
@@ -32,6 +32,7 @@
       }
     },
     "reference" : "3004cce1-4864-4bf9-a5c0-c60a38969312",
+    "hasValidationError" : false,
     "id" : "pbTitle"
   } ], [ {
     "type" : "component",
@@ -124,6 +125,7 @@
       }
     },
     "reference" : "8857686a-0cce-4895-888a-3d0f3f4ec9d4",
+    "hasValidationError" : false,
     "id" : "pbButton"
   } ], [ {
     "type" : "component",
@@ -153,6 +155,7 @@
       }
     },
     "reference" : "baeff188-c743-4d3c-8599-10b5427cc2f9",
+    "hasValidationError" : false,
     "id" : "pbText"
   } ], [ {
     "type" : "component",
@@ -182,6 +185,7 @@
       }
     },
     "reference" : "7dc3fbb3-8aab-4cff-a422-17e7f09de681",
+    "hasValidationError" : false,
     "id" : "pbText"
   } ] ],
   "assets" : [ {
@@ -208,6 +212,9 @@
       "exposed" : false
     }
   },
+  "hasValidationError" : false,
   "uuid" : "49d3f3e3-1beb-4419-bc17-e3bdef65c61f",
-  "type" : "form"
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer",
+  "displayName" : "removeAllBusinessData"
 }
